@@ -1,21 +1,44 @@
-## Getting Started with Create React App
+# Sunway Hotels - React App
 
-### Node version
+Welcome to the Sunway Hotels web application! This project is built using **React** with typescript.
 
-Install node version v20.11.0
+## Prerequisites
 
-### Clone project
+Before you begin, ensure you have the following installed:
 
-[clone project](https://github.com/ammarabrahani/sunway-hotels.git)
+- **Node.js** (v20.11.0)  
+  Download and install Node.js.
 
-### Available Scripts
+## Installation
 
-In the project directory, you can run:
+### Clone the Repository
 
-### `npm install`
+Clone this project to your local machine:
 
-To install packages and dependencies.
+```bash
+ git clone https://github.com/ammarabrahani/sunway-hotels.git
+```
 
-### `npm start`
+Navigate into the project directory:
 
-To start the project on port 3000.
+```bash
+ cd sunway-hotels
+```
+
+### Install Dependencies
+
+Install the required packages and dependencies:
+
+```bash
+ npm install
+```
+
+## Running the Project
+
+To start the development server, run:
+
+```bash
+ npm start
+```
+
+The app will be available at **http://localhost:3000** by default.
