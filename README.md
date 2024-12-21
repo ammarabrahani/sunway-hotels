@@ -1,14 +1,14 @@
-# Getting Started with Create React App
+## Getting Started with Create React App
 
-# Node version
+### Node version
 
 Install node version v20.11.0
 
-# Clone project
+### Clone project
 
 [clone project](https://github.com/ammarabrahani/sunway-hotels.git)
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
