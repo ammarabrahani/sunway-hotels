@@ -8,19 +8,17 @@ export const useHotels = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    setLoading(true);
     getHotels()
       .then((res) => {
-        setTimeout(() => {
-          setHotels(res?.data || []);
-        }, 2000);
-        setError(null);
+        setHotels(res?.data || []);
       })
       .catch(() => {
         setError("Failed to fetch hotels.");
       })
       .finally(() => {
-        setLoading(false);
+        setTimeout(() => {
+          setLoading(false);
+        }, 1000);
       });
   }, []);
 

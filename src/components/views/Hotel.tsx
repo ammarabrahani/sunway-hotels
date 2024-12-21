@@ -5,7 +5,7 @@ import Loader from "../Loader";
 import RatingStars from "../Ratings";
 
 const Hotel = () => {
-  const { hotels, loading, error } = useHotels();
+  const { hotels, loading } = useHotels();
 
   const navigate = useNavigate();
 
