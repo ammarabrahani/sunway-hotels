@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useHotels } from "../../hooks/useHotels";
-import Loader from "../Loader";
 import RatingStars from "../Ratings";
 
 const HotelDetails: React.FC = () => {
